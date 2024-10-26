@@ -1,0 +1,55 @@
+.title
+{
+    margin-bottom: 30px;
+}
+.todo-input
+{
+    border:1px solid green;
+    outline: none;
+    box-shadow: 1px 1px green;
+    color: green;
+    margin-right: 10px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+}
+
+.todo-submit{
+    color: white;
+    background-color: lightgreen;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+}
+.todo-submit:hover{
+    color: white;
+    background-color: green;
+}
+.display-todo-section
+{
+   
+
+}
+.display-todo-section-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+.filter-heading-color
+{
+
+}
+.all{
+    background-color: blue;
+    color: white;
+}
+.NOT_COMPLETED{
+    background-color: lightcoral;
+    color: white;
+}
+.COMPLETED{
+    background-color: green;
+    color: Black;
+}
